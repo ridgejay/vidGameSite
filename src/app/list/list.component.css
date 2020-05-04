@@ -1,0 +1,24 @@
+#banner {
+    background-image: url('../../assets/images/pac.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#button {
+    background-color: black;
+    color: yellow;
+}
+
+.row {
+    justify-content: center;
+}
+
+#title {
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+
+#mario {
+    margin-top: 0px;
+}

@@ -1,0 +1,13 @@
+#cardhalf {
+    justify-content: center;
+}
+
+#arrow {
+    color: green;
+}
+
+#title {
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}

@@ -1,0 +1,68 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm text-left">
+      <img src="../../assets/images/concept1.png" alt="">
+    </div>
+    <div class="col-sm text-center">
+      <img src="../assets/images/game.gif" alt="">
+    </div>
+    <div class="col-sm text-right">
+      <img src="../../assets/images/concept2.png" alt="">
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm text-left">
+      <img src="../../assets/images/hedge.gif" alt="">
+    </div>
+    <div class="col-sm text-center" id="mario">
+      <img src="../assets/images/smash bros.png" alt="">
+    </div>
+    <div class="col-sm text-right">
+      <img src="../../assets/images/poke.gif" alt="">
+    </div>
+  </div>
+</div>
+<!-- Just an image -->
+<nav class="navbar navbar-light bg-light" id="banner">
+  <a class="navbar-brand" href="#">
+    <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+  </a>
+</nav>
+
+
+<div class="container">
+<div class="row">
+    <div
+      class="col-sm-6"
+      class="card"
+      style="width: 18rem;"
+      *ngFor="let goods of good"
+      [routerLink]="['/details/', goods.id]"
+    >
+      <div class="card-example">
+        <div class="card-body" id="card-color">
+          <h6 class="card-title" id="title">{{ goods.name }}</h6>
+          <img
+            src="{{ goods.image }}"
+            class="card-img-top"
+            alt="{{ goods.name }}"
+          />
+          <p>{{ good.description }}</p>
+          <a [routerLink]="['/details/', goods.id]" class="btn btn-primary" id="button"
+            >More Info</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+ 
+

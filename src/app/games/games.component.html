@@ -1,0 +1,61 @@
+<div class="form-group">
+        <input type="text" class="form-control" placeholder="Search Here" [(ngModel)]="term">Search Game List
+    </div>
+    
+    <div class="container">
+    <div class="row">
+
+    <div class="col-sm text-left">
+      <img src="../../assets/images/fight.gif" alt="">
+    </div>
+
+    <div class="col-sm text-center">
+      <img src="../../assets/images/Pacman.png" alt="">
+    </div>
+
+    <div class="col-sm text-right">
+      <img src="../../assets/images/dbz.gif" alt="">
+    </div>
+
+    
+
+    </div>
+    </div>
+    
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col"># In Stock</th>
+                <th scope="col">Title</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of filterData | filter:term">
+                <td>{{item.stock}}</td>
+                <td>{{item.title}}</td>
+                <td>{{item.price}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <span>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </span>
+    <div class="col-sm text-center">
+      <img src="../../assets/images/game on.gif" alt="">
+    </div>
+
+    <div class="col-sm text-right">
+      <img src="../../assets/images/megaman.gif" alt="">
+    </div>
+    

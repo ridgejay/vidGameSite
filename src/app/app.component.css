@@ -1,0 +1,22 @@
+.navbar {
+    background-image: url('../assets/images/nav.jpg');
+    background-position: top;
+}
+
+.navbar-brand {
+    color: yellow;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+#cart {
+    color: skyblue;
+}
+
+.bg {
+    background-image: url('../assets/images/top background.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+}
